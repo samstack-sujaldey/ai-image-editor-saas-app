@@ -37,7 +37,7 @@ Welcome to the ultimate AI Image Editor SaaS application! This project demonstra
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/samstack-sujaldey/ai-image-editor-saas-app/tree/master
+   git clone https://github.com/samstack-sujaldey/ai-image-editor-saas-app.git
    cd ai-image-editor-saas-app
    ```
 
