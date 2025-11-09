@@ -28,15 +28,15 @@ export const auth = betterAuth({
         checkout({
           products: [
             {
-              productId: "43585d8b-a849-485c-a359-7773d185d8ef",
+              productId: "a365a1a4-1c04-4568-a60b-85b45b21ab4e",
               slug: "small",
             },
             {
-              productId: "ba9b9094-3f22-4933-86f2-7d74cdcfbf52",
+              productId: "f518c56c-9354-49c0-b3be-4ec521e6bfad",
               slug: "medium",
             },
             {
-              productId: "2c7735ec-5758-4c6a-8907-da76dced50b6",
+              productId: "b423ffb4-7863-4026-b6db-f235fca33fba",
               slug: "large",
             },
           ],
@@ -59,14 +59,14 @@ export const auth = betterAuth({
             let creditsToAdd = 0;
 
             switch (productId) {
-              case "43585d8b-a849-485c-a359-7773d185d8ef":
+              case "a365a1a4-1c04-4568-a60b-85b45b21ab4e":
                 creditsToAdd = 50;
                 break;
-              case "ba9b9094-3f22-4933-86f2-7d74cdcfbf52":
-                creditsToAdd = 200;
+              case "f518c56c-9354-49c0-b3be-4ec521e6bfad":
+                creditsToAdd = 100;
                 break;
-              case "2c7735ec-5758-4c6a-8907-da76dced50b6":
-                creditsToAdd = 400;
+              case "b423ffb4-7863-4026-b6db-f235fca33fb":
+                creditsToAdd = 200;
                 break;
             }
 
